@@ -1,0 +1,60 @@
+import type { Espacio } from "@/types";
+
+export const espacios: Espacio[] = [
+  {
+    id: "piscina-principal",
+    nombre: "Piscina Principal",
+    icono: "🏊",
+    descripcion: "Piscina principal para residentes.",
+    aforo: 10,
+    tipo: "aforo",
+  },
+  {
+    id: "piscina-ninos",
+    nombre: "Piscina de Niños",
+    icono: "👶",
+    descripcion: "Piscina exclusiva para niños.",
+    aforo: 6,
+    tipo: "aforo",
+  },
+  {
+    id: "zona-humeda",
+    nombre: "Zona Húmeda",
+    icono: "♨️",
+    descripcion: "Acceso compartido entre Jacuzzi, Sauna y Turco.",
+    aforo: 15,
+    tipo: "aforo-compartido",
+  },
+  {
+    id: "gimnasio",
+    nombre: "Gimnasio",
+    icono: "🏋️",
+    descripcion: "Zona de entrenamiento.",
+    aforo: 10,
+    tipo: "aforo",
+  },
+  {
+    id: "billar",
+    nombre: "Billar",
+    icono: "🎱",
+    descripcion: "Mesa de billar.",
+    aforo: 1,
+    tipo: "individual",
+  },
+  {
+    id: "ping-pong",
+    nombre: "Ping Pong",
+    icono: "🏓",
+    descripcion: "Mesa de tenis de mesa.",
+    aforo: 1,
+    tipo: "individual",
+  },
+  {
+    id: "xbox",
+    nombre: "Xbox",
+    icono: "🎮",
+    descripcion: "Zona de videojuegos.",
+    aforo: 1,
+    tipo: "individual",
+  },
+];
